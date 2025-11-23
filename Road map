@@ -1,0 +1,21 @@
+crypto-ai-advisor/
+├── agents/                          # ИИ агенты
+│   ├── portfolio_agent.py          # Агент управления портфелем
+│   ├── trading_agent.py            # Торговый агент
+│   └── education_agent.py          # Образовательный агент
+├── core/                           # Ядро системы
+│   ├── portfolio_manager.py        # Менеджер портфеля
+│   ├── risk_assessment.py          # Оценка рисков
+│   └── strategy_engine.py          # Движок стратегий
+├── data/                           # Работа с данными
+│   ├── market_data.py              # Рыночные данные
+│   └── vector_store.py             # Векторное хранилище
+├── api/                            # API слой
+│   ├── routes.py                   # Маршруты API
+│   └── middleware.py               # Промежуточное ПО
+├── ui/                             # Пользовательский интерфейс
+│   ├── dashboard.py                # Дашборд
+│   └── analytics.py                # Аналитика
+└── config/                         # Конфигурация
+    ├── settings.py                 # Настройки
+    └── constants.py                # Константы
